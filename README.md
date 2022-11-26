@@ -1,3 +1,3 @@
 # web-sitem
 
-<p> Web Sitem ödevim bu kitaplıkta yer alacak. </p>
+<p> Web Site ödevim bu kitaplıkta yer alacak. </p>
