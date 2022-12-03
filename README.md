@@ -1,3 +1,3 @@
 # web-sitem
 
-<p> Web Site ödevim bu kitaplıkta yer alacaktır. </p>
+<p> Web Site ödevim  :yawning_face:   </p>
