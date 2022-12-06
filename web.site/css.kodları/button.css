@@ -1,0 +1,112 @@
+.btn-1 {
+border: none;
+color: white;
+background-color: #4CAF50;
+padding: 10px 20px;
+cursor: pointer;
+border: 2px solid #4CAF50;
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+}
+
+.btn-1:hover {
+color: #4CAF50;
+background-color: #fff;
+border: 2px solid #4CAF50;
+}
+
+.btn-2 {
+width: 70px;
+height: 70px;
+border: none;
+color: white;
+background-color: #4CAF50;
+cursor: pointer;
+border: 2px solid #4CAF50;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+
+.btn-2:hover {
+color: #4CAF50;
+background-color: #fff;
+border: 2px solid #4CAF50;
+}
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+ 
+.btn-1 {
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+ 
+.btn-1:hover {
+    color: #4CAF50;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+}
+ 
+.btn-2 {
+    width: 70px;
+    height: 70px;
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+ 
+.btn-2:hover {
+    color: #4CAF50;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+}
