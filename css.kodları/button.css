@@ -20,28 +20,3 @@ color: red;
 background-color: red;
 border: 2px solid yellow;
 }
-
-
-
-
-
-<!-- hazýrda bulundurulan bölüm -->
-
-.btn-2 {
-width: 70px;
-height: 70px;
-border: none;
-color: white;
-background-color: #4CAF50;
-cursor: pointer;
-border: 2px solid #4CAF50;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-}
-
-.btn-2:hover {
-color: yellow;
-background-color: #fff;
-border: 2px solid #4CAF50;
-}
