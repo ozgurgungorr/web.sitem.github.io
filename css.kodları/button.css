@@ -16,7 +16,37 @@ border-radius: 16px;
 
 
 .btn-1:hover {
-color: red;
-background-color: red;
-border: 2px solid yellow;
+border: none;
+color: white;               
+background-color: blue;
+padding: 10px 20px;
+cursor: pointer;
+border: 2px solid yellow;     
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+}
+
+
+
+
+
+
+.btn-2 {
+width: 70px;
+height: 70px;
+border: none;
+color: white;
+background-color: #4CAF50;
+cursor: pointer;
+border: 2px solid #4CAF50;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+
+.btn-2:hover {
+color: yellow;
+background-color: #fff;
+border: 2px solid #4CAF50;
 }
