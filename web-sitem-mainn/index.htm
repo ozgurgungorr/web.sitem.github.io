@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	 <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv"content-type" content="text/html; charset=utf-8" />
+
+      <title>Anasayfa/www.buradanal.com</title>
+
+	  
+
+       <link href="css.kodları/button.css" rel="stylesheet">
+       <link href="csskodları/ek.css" rel="stylesheet">
+
+       <style>
+   		   * {
+			   margin: 0;
+			   padding: 0;
+			   box-sizing: border-box;
+		    }
+		
+		   .header {
+			   padding: 30px;
+			   text-align: center;
+			   background-color: goldenrod;
+			   color: #fff;
+		    }
+		
+		    .navbar {
+			display: flex;
+			background-color: #333;
+		    }
+		
+		    .navbar a {
+			color: #fff;
+			padding: 16px 20px;
+			text-decoration: none;
+			text-align: center;
+		    }
+	
+		    .navbar a:hover {
+			background-color: #ddd;
+			color: #000;
+	    	}
+		
+	    	#main {
+			display: flex;
+	    	}
+		
+		
+	    	#sidebar {                                            /* sağ menü rengi       */
+			background-color: #af9797;
+			flex: 25%;
+			padding: 20px;
+			order: 1;
+		    }
+		
+		   .box {                                                /*   kutu arası  */           
+			margin-bottom: 30px;
+		    }
+		
+		    p {
+	  		margin: 10px 0;
+	    	}
+		
+	    	#content {
+			background-color: rgb(37, 180, 32);               /*   SAYFA arka plan rengi AYARI  */ 
+			flex: 75%;
+			padding: 20px;
+	    	}
+		
+		   .ph {
+			background-color: rgb(170, 170, 170);             /*   KUTUCUKLAR arka plan rengi AYARI  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+			
+		   .phh {
+			background-color: rgb(9, 63, 126);            /*   KUTUCUKLAR İÇ arka plan rengi AYARI 2 SAĞ  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+			
+		    .phhp {
+			background-color: red;            /*   KUTUCUKLAR İÇ arka plan rengi AYARI 2 SAĞ  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+		
+	     	#footer {
+			background-color: #ddd;
+			padding: 20px;
+			text-align: center;				
+		    }
+		
+	     	@media screen and (max-width: 700px) {
+			#main, .navbar {
+				flex-direction: column;
+			}
+			#sidebar {
+				order: -1;
+			}
+	    	}
+       </style>
+   </head>
+
+
+    <body>
+
+        <div style="background-color: deepskyblue; color: white; padding: 15px;">
+		  <form>
+               Kullanıcı Adı: <input type="text" name=kadi size="15"/>
+	           Parola:        <input type="password" name=sifre maxlangth="8"/>
+	           <input type="submit" value="Gönder"/>
+	           <input type="reset" value="Temizle"/>
+               <button type="button" onClick="parent.location='kayıt.htm'">Kaydol</button>
+
+
+
+
+			     	     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		   		         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  		         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          		         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 		         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		     		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    	  		     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+                 <a href="https://www.instagram.com/ozgurgungor.r/">
+	                <img src="img/ınstagram.jpg" width="30" height="30" title="instagram"></a>
+	             &nbsp;
+	             <a href="https://web.whatsapp.com/">
+	                <img src="img/whatsapp.jpg" width="30" height="30" title="whatsapp"></a>
+	             &nbsp;
+	             <a href="https://twitter.com/">
+	                <img src="img/tiwitter.jpg" width="30" height="30" title="tiwitter"></a>
+	             &nbsp;
+	             <a href="https://tr-tr.facebook.com/">
+	                <img src="img/facebook.jpg" width="30" height="30" title="facebook"></a>
+				&nbsp;
+	             <a href=”mailto: oozgurgungorr@gmail.com”>
+				   <img src="img/gmail.jpg" width="30" height="30" title="gmail"></a>
+         </form>
+        </div>
+
+
+	   <div style="background-color: rgb(255, 0, 0); color: white; padding: 15px;">
+
+
+		    <center>
+		    	<img src="img/logo.jpg" width="75" height="65" alt="Web Logo" title="web logo"/>
+		    </center>
+
+
+		    <center>
+			 <h1>ANASAYFA</h1>
+		    </center>
+
+           <br><br>
+
+            <center>
+			 <img src="img/download.gif" width="75" height="65" title="gif kedi :)">
+		    </center>
+
+
+
+
+
+		  <div style="border-radius: 40px/10px; background-color:rgb(22, 209, 223); color: white; padding: 15px;">
+                <hr>
+                    <center>
+                        <a href="çoksatan.htm">
+                        <button class="btn-1">ÇOK SATANLAR</button></a>
+                        &nbsp;
+                        <a href="indirimli.htm"> 
+                        <button class="btn-1">İNDİRİMLİ ÜRÜNLER</button></a>
+                        &nbsp;
+                        <a href="iletişim.htm">
+                        <button class="btn-1">İLETİŞİM</button></a>
+                    </center>
+                <hr>
+     	  </div>
+
+       </div>
+
+
+
+<!------------sağ menü--------------------------------------------------------------------------->
+
+	    <div id="main">
+	
+		  <div id="sidebar">
+			<center> <h4>FİYAT PERFORMANS ÜRÜNLERİMİZ</h4>  </center>
+
+<!------------------------------------------------------->
+
+
+
+			<div class="phh">
+				
+	
+				<div class="ph" style="height:200px;">      
+				
+				<center>
+			      <img href="" src="img/kasa.jpg" width="150" height="150" alt="Örnek Resim"/>
+                </center>
+				</div>
+				
+
+		    </div>
+			
+			<p>   1-2 menü arasi </p>
+
+<!----------------------------------YAN 1----------------------------------------------------------------->			
+			
+<div class="phh">
+				
+
+	<div class="ph" style="height:200px;">      
+	
+	<center>
+	  <img href="" src="img/kasa.jpg" width="150" height="150" alt="Örnek Resim"/>
+	</center>
+	</div>
+	
+
+</div>
+			
+			
+			    <p>   2-3 menü arasi </p>
+<!----------------------------------YAN 1----------------------------------------------------------------->				
+<div class="phh">
+				
+	<center><h1>SON 5 ÜRÜN</h1></center>
+
+	<div class="ph" style="height:200px;">      
+	
+	<center>
+	  <img href="" src="img/kasa.jpg" width="150" height="150" alt="Örnek Resim"/>
+	</center>
+	</div>
+	
+
+</div>
+				
+
+
+
+	             <p>   3-4 menü arasi </p>	
+<!----------------------------------YAN 1----------------------------------------------------------------->					
+<div class="phh">
+				
+	<center><h1>SON 5 ÜRÜN</h1></center>
+
+	<div class="ph" style="height:200px;">      
+	
+	<center>
+	  <img href="" src="img/kasa.jpg" width="150" height="150" alt="Örnek Resim"/>
+	</center>
+	</div>
+	
+
+</div>
+
+<p>  ÜRÜN 5 SON </p>	
+<!----------------------------------YAN 1----------------------------------------------------------------->					
+
+		        </div>
+		
+		
+
+
+
+
+
+
+
+
+		
+              <!---------------------------sağ menü son------------------------------------------------>	
+		
+		
+		
+	    	 <div id="content">
+	     	     <h2>ARALIK AYI ŞOK FİYATLI ÜRÜNLER</h2>
+		
+                  <!---------------------------------------------------------------------------->		
+			      <div class="box">   
+				      <div class="ph"; style="height:200px;">    
+				          <img href="im" src="img/kasa.jpg" width="150" height="150" alt="Örnek Resim"/>
+	                        <br>
+				           <center>
+					
+				           <h3>CASPER KASA 20.000TL</h3>
+				
+		                   </center>		
+				       </div>
+				
+				      <a href="kasa.htm" align="center">
+                        <button class="btn-1">KASANIN ÖZELLİKLERİ</button></a>
+					
+				
+			          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				    
+		              <a href="satınal.htm" align="center">
+                      <button class="btn-1">SATINAL</button></a>
+				   </div>
+			
+                  <!----------------------------------------------------------------->
+			
+			   
+		     	    <div class="ph" style="height:200px;">      
+
+                       <img href="im" src="img/kulak.jpg" width="150" height="150" alt="Örnek Resim"/>
+	                   <br>
+				        <center>
+					
+				           <h3>MP3 ÇALAR 1.000TL</h3>
+				
+		                </center>		
+                    </div>
+                    <a href="mp3.htm" align="center">
+				     <button class="btn-1">	MP3 ÖZELLİKLERİ</button></a>
+				
+				
+			         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+					
+					
+		           <a href="satınal.htm" align="center">
+                    <button class="btn-1">SATINAL</button></a>
+			
+		
+                    <!---------->	
+		
+		
+		
+			       <div class="ph" style="height:200px;">      
+
+                         <img href="im" src="img/yazıcı.jpg" width="150" height="150" alt="Örnek Resim"/>
+	                        <br>
+				            <center>
+					
+				               <h3>CASİO YAZICI 5.000TL</h3>
+				
+		                    </center>		
+				
+			
+			        </div>
+                   <a href="yazıcı.htm" align="center">
+	                 <button class="btn-1">YAZICI ÖZELLİKLERİ</button></a>
+				     </a>
+				
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp;
+		          <a href="satınal.htm" align="center">
+                   <button class="btn-1">SATINAL</button></a>
+			
+			
+			
+                     <!---------->		
+		
+	
+		           <div class="ph" style="height:200px;">      
+
+                   <img href="im" src="img/ardinyo.jpg" width="150" height="150" alt="Örnek Resim"/>
+	                <br>
+				    <center>
+					
+				     <h3>ARDİNYO UNO 3.000TL</h3>
+				
+		            </center>		
+				
+			
+				
+		          </div>
+			
+			
+			       <a href="ardinyo.htm" align="center">
+                    <button class="btn-1">ARDİNYO UNO ÖZELLİKLERİ</button></a>
+				
+				
+
+			
+				
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+				
+		           <a href="satınal.htm" align="center">
+                   <button class="btn-1">SATINAL</button></a>
+			
+		
+                   <!---------->
+		
+		
+			        <div class="ph" style="height:200px;">      
+
+                       <img href="im" src="img/pro.şarj.jpg" width="150" height="150" alt="Örnek Resim"/>
+	                    <br>
+				        <center>
+					
+				        <h3>PRO ŞARJ 500TL</h3>
+					 
+		                </center>
+
+
+
+					
+		           
+					
+			           <a href="prosarj.htm" align="center">
+                        <button class="btn-1">PRO ŞARJ ALETİ</button></a>
+					
+				    </div>
+				
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   
+		           <a href="satınal.htm" align="center">
+                    <button class="btn-1">SATINAL</button></a>	
+		
+		
+                    <!---------->
+		
+		
+		        </div>
+		
+		
+		
+	        </div>
+		
+		
+        </div>
+		
+
+
+    </body>
+</html>
