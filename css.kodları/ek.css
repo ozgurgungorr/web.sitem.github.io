@@ -1,4 +1,4 @@
-﻿<style>
+﻿
 		* {
 			margin: 0;
 			padding: 0;
@@ -78,6 +78,7 @@
 				order: -1;
 			}
 		}
-		
-	
-	</style>
+			
+        .phx{
+	        display: flex;
+	    }
