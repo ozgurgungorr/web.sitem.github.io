@@ -1,0 +1,126 @@
+   		   * {
+			   margin: 0;
+			   padding: 0;
+			   box-sizing: border-box;
+		    }
+		
+		   .header {
+			   padding: 30px;
+			   text-align: center;
+			   background-color: goldenrod;
+			   color: #fff;
+		    }
+		
+		    .navbar {
+			display: flex;
+			background-color: #333;
+		    }
+		
+		    .navbar a {
+			color: #fff;
+			padding: 16px 20px;
+			text-decoration: none;
+			text-align: center;
+		    }
+	
+		    .navbar a:hover {
+			background-color: #ddd;
+			color: #000;
+	    	}
+		
+	    	#main {
+			display: flex;
+	    	}
+		
+		
+	    	#sidebar {                                            /* sað menü rengi       */
+			background-color: #af9797;
+			flex: 25%;
+			padding: 20px;
+			order: 1;
+		    }
+		
+		   .box {                                                /*   kutu arasý  */           
+			margin-bottom: 30px;
+		    }
+		
+		    p {
+	  		margin: 10px 0;
+	    	}
+		
+	    	#content {
+			background-color: rgb(77, 76, 76);               /*   SAYFA arka plan rengi AYARI  */ 
+			flex: 75%;
+			padding: 20px;
+	    	}
+		
+		   .ph {
+
+			border-top-left-radius: 100px;                         /*   sað menüKUTUCUKLAR ÖLÇÜ AYARI  */
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 100px;
+            border-top-right-radius: 100px;
+
+
+			background-color: rgb(171, 238, 14);             /*   sað menüKUTUCUKLAR arka plan rengi AYARI  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+			
+
+
+
+            .phx {
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 100px;                     /*   ANA menüKUTUCUKLAR ÖLÇÜ AYARI  */        
+
+
+
+            background-color: rgb(157, 218, 204);             /*  ANA MENÜ KUTUCUKLAR arka plan rengi AYARI  */
+            width: 100%;
+            padding: 20px;
+            margin-top: 10px;
+            }
+
+			
+		   .phh {
+			border-radius: 15px;
+			background-color: rgb(9, 63, 126);            /*   KUTUCUKLAR ÝÇ arka plan rengi AYARI 2 SAÐ  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+			
+		    .phhp {
+			background-color: red;            /*   KUTUCUKLAR ÝÇ arka plan rengi AYARI 2 SAÐ  */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+
+			.pzx {
+
+				border-top-left-radius: 00px;
+                border-bottom-right-radius: 100pc;
+
+			background-color: rgb(44, 100, 122);            /*       YORUMLAR       */
+			width: 100%;
+			padding: 20px;
+			margin-top: 10px;
+		    }
+		
+	     	#footer {
+			background-color: #ddd;
+			padding: 20px;
+			text-align: center;				
+		    }
+		
+			@media screen and (max-width: 70px) {
+			#main, .navbar {
+				flex-direction: column;
+			}
+			#sidebar {
+				order: -1;
+			}
+	    	}
